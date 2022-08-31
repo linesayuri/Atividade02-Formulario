@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Pontos Turísticos</title>
+</head>
+
+<body>
+  <div>
+    <h1>NOVO PONTO TURÍSTICO</h1>
+    <form name="dados" action="" method="post">
+      <div>
+        <label for="Nome do ponto turístico"></label>
+        <input type="text" name="nome-do-ponto-turistico" autofocus required placeholder="Nome do ponto turístico">
+      </div>
+
+      <div>
+        <label for="Endereço"></label>
+        <input type="text" name="endereço" required placeholder="Endereço">
+      </div>
+
+      <div>
+        <label for="pais"></label>
+        <input list="pais__" id="pais" name="pais" required placeholder="Selecione o País">
+        <datalist id="pais__">
+          <option value="Afeganistão">
+          <option value="África do Sul">
+          <option value="Albânia">
+          <option value="Alemanha">
+          <option value="Andorra">
+          <option value="Angola">
+          <option value="Arábia Saudita">
+          <option value="Argélia">
+          <option value="Argentina">
+          <option value="Arménia">
+          <option value="Austrália">
+          <option value="Áustria">
+          <option value="Azerbaijão">
+          <option value="Bahamas">
+          <option value="Bangladesh">
+          <option value="Barbados">
+          <option value="Barém">
+          <option value="Bélgica">
+          <option value="Belize">
+          <option value="Benim">
+          <option value="Bermudas">
+          <option value="Bielorrússia">
+          <option value="Bolívia">
+          <option value="Bonaire">
+          <option value="Bósnia e Herzegovina">
+          <option value="Botsuana">
+          <option value="Brasil">
+          <option value="Brunei">
+          <option value="Bulgária">
+          <option value="Burquina Fasso">
+          <option value="Burúndi">
+          <option value="Butão">
+          <option value="Cabo Verde">
+          <option value="Camarões">
+          <option value="Camboja">
+          <option value="Canadá">
+          <option value="Catar">
+          <option value="Cazaquistão">
+          <option value="Chade">
+          <option value="China">
+          <option value="Chipre">
+          <option value="Colômbia">
+          <option value="Comores">
+          <option value="Congo">
+          <option value="Coreia do Norte">
+          <option value="Coreia do Sul">
+          <option value="Cosovo">
+          <option value="Costa do Marfim">
+          <option value="Costa Rica">
+          <option value="Croácia">
+          <option value="Cuba">
+          <option value="Curaçau">
+          <option value="Dinamarca">
+          <option value="Dominica">
+          <option value="Egito">
+          <option value="Emirados Árabes Unidos">
+          <option value="Equador">
+          <option value="Eritreia">
+          <option value="Eslováquia">
+          <option value="Eslovénia">
+          <option value="Espanha">
+          <option value="Estado da Palestina">
+          <option value="Estados Unidos">
+          <option value="Estónia">
+          <option value="Etiópia">
+          <option value="Fiji">
+          <option value="Filipinas">
+          <option value="Finlândia">
+          <option value="França">
+          <option value="Gabão">
+          <option value="Gâmbia">
+          <option value="Gana">
+          <option value="Geórgia">
+          <option value="Granada">
+          <option value="Grécia">
+          <option value="Groenlândia">
+          <option value="Guatemala">
+          <option value="Guiana Francesa">
+          <option value="Guiana">
+          <option value="Guiné Equatorial">
+          <option value="Guiné-Bissau">
+          <option value="Guiné">
+          <option value="Haiti">
+          <option value="Honduras">
+          <option value="Hungria">
+          <option value="Iémen">
+          <option value="Ilhas Marechal">
+          <option value="Índia">
+          <option value="Indonésia">
+          <option value="Irão">
+          <option value="Iraque">
+          <option value="Irlanda">
+          <option value="Islândia">
+          <option value="Israel">
+          <option value="Itália">
+          <option value="Jamaica">
+          <option value="Japão">
+          <option value="Jibuti">
+          <option value="Jordânia">
+          <option value="Kuaite">
+          <option value="Laus">
+          <option value="Lesoto">
+          <option value="Letónia">
+          <option value="Líbano">
+          <option value="Libéria">
+          <option value="Líbia">
+          <option value="Listenstaine">
+          <option value="Lituânia">
+          <option value="Luxemburgo">
+          <option value="Macedónia">
+          <option value="Madagáscar">
+          <option value="Malásia">
+          <option value="Maláui">
+          <option value="Maldivas">
+          <option value="Mali">
+          <option value="Malta">
+          <option value="Marrocos">
+          <option value="Maurícia">
+          <option value="Mauritânia">
+          <option value="México">
+          <option value="Mianmar">
+          <option value="Micronésia">
+          <option value="Moçambique">
+          <option value="Moldávia">
+          <option value="Mónaco">
+          <option value="Mongólia">
+          <option value="Montenegro">
+          <option value="Namíbia">
+          <option value="Nauru">
+          <option value="Nepal">
+          <option value="Nicarágua">
+          <option value="Níger">
+          <option value="Nigéria">
+          <option value="Noruega">
+          <option value="Nova Zelândia">
+          <option value="Omã">
+          <option value="Países Baixos">
+          <option value="Palau">
+          <option value="Panamá">
+          <option value="Papua Nova Guiné">
+          <option value="Paquistão">
+          <option value="Paraguai">
+          <option value="Peru">
+          <option value="Polónia">
+          <option value="Portugal">
+          <option value="Quénia">
+          <option value="Quirguistão">
+          <option value="Quiribáti">
+          <option value="Reino Unido">
+          <option value="República Centro-Africana">
+          <option value="República Checa">
+          <option value="República Democrática do Congo">
+          <option value="República Dominicana">
+          <option value="Roménia">
+          <option value="Ruanda">
+          <option value="Rússia">
+          <option value="Salomão">
+          <option value="Salvador">
+          <option value="Samoa">
+          <option value="Santa Lúcia">
+          <option value="São Cristóvão e Neves">
+          <option value="São Marinho">
+          <option value="São Tomé e Príncipe">
+          <option value="São Vicente e Granadinas">
+          <option value="Seicheles">
+          <option value="Senegal">
+          <option value="Serra Leoa">
+          <option value="Sérvia">
+          <option value="Singapura">
+          <option value="Síria">
+          <option value="Somália">
+          <option value="Sri Lanca">
+          <option value="Suazilândia">
+          <option value="Sudão do Sul">
+          <option value="Sudão">
+          <option value="Suécia">
+          <option value="Suíça">
+          <option value="Suriname">
+          <option value="Tailândia">
+          <option value="Taiuã">
+          <option value="Tajiquistão">
+          <option value="Tanzânia">
+          <option value="Timor-Leste">
+          <option value="Togo">
+          <option value="Tonga">
+          <option value="Trindade e Tobago">
+          <option value="Tunísia">
+          <option value="Turcomenistão">
+          <option value="Turquia">
+          <option value="Tuvalu">
+          <option value="Ucrânia">
+          <option value="Uganda">
+          <option value="Uruguai">
+          <option value="Usbequistão">
+          <option value="Vanuatu">
+          <option value="Vaticano">
+          <option value="Venezuela">
+          <option value="Vietname">
+          <option value="Zâmbia">
+          <option value="Zimbábue">
+        </datalist>
+      </div>
+      <div>
+        <label for="Estado"></label>
+        <input type="text" required placeholder="Estado">
+      </div>
+      <div>
+        <label for="Cidade"></label>
+        <input type="text" required placeholder="Cidade">
+      </div>
+      <div>
+        <p>Tipo</p>
+        <select id="tipo" required>
+          <option value="0">Selecione o tipo de ponto turístico</option>
+          <option value="1">Museu</option>
+          <option value="2">Teatro</option>
+          <option value="3">Parque</option>
+          <option value="4">Outros</option>
+        </select>
+      </div>
+      <div>
+        <label for="Telefone"></label>
+        <input type="tel" required placeholder="Telefone">
+      </div>
+      <div>
+        <label for="Site"></label>
+        <input type="url" placeholder="Site">
+      </div>
+      <div>
+        <label for="Valor do Ingresso"></label>
+        <input type="text" placeholder="Valor do Ingresso">
+      </div>
+      <div>
+        <label for="Horário de funcionamento:">Horário de Funcionamento</label>
+        <input type="time">
+        <p>até</p>
+        <input type="time">
+      </div>
+      <div>
+        <label for="Nota">Nota (0 a 10)</label>
+        <input type="number" id="nota" min="0" max="10">
+      </div>
+      <div>
+        <label for="Pet Friendly">Pet Friendly</label>
+        <input type="radio" name="petfriendly" id="petfriendly1">
+        <label for="petfriendly1"> Sim</label>
+        <input type="radio" name="petfriendly" id="petfriendly2">
+        <label for="petfriendly2"> Não</label>
+      </div>
+      <div>
+        <label for="Tipo de Viajante">Tipo de Viajante</label>
+        <input type="checkbox" id="tipodeviajante1">
+        <label for="">Família</label>
+        <input type="checkbox" id="tipodeviajante2">
+        <label for="">Casal</label>
+        <input type="checkbox" id="tipodeviajante3">
+        <label for="">Amigos</label>
+        <input type="checkbox" id="tipodeviajante4">
+        <label for="">Negócios</label>
+        <input type="checkbox" id="tipodeviajante5">
+        <label for="">Sozinho</label>
+      </div>
+
+      <div>
+        <button type="reset">Limpar campos</button>
+      </div>
+      <div>
+        <button type="submit">Adicionar</button>
+      </div>
+
+    </form>
+
+  </div>
+
+</body>
+
+</html>
